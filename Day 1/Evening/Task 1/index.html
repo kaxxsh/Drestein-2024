@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex justify-center bg-gray-100">
+    <div class="w-full bg-black flex justify-center p-1">
+        <nav class="flex items-center justify-between w-3/4 p-4 text-white">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="Logo" class="h-8" />
+            </div>
+            <ul class="menu flex gap-6">
+                <li class="cursor-pointer hover:text-gray-400 transition duration-300">Home</li>
+                <li class="flex items-center cursor-pointer hover:text-gray-400 transition duration-300">Brands
+                    <img src="./assets/Dropdown.png" alt="Dropdown" class="ml-2 h-3" />
+                </li>
+                <li class="cursor-pointer hover:text-gray-400 transition duration-300">Recent Products</li>
+                <li class="cursor-pointer hover:text-gray-400 transition duration-300">Contact</li>
+                <li class="cursor-pointer hover:text-gray-400 transition duration-300">About</li>
+            </ul>
+            <div class="side-menu flex gap-4">
+                <img src="./assets/Search.png" alt="Search" class="h-6 cursor-pointer hover:opacity-70 transition duration-300" />
+                <img src="./assets/User.png" alt="User" class="h-6 cursor-pointer hover:opacity-70 transition duration-300" />
+                <img src="./assets/Cart.png" alt="Cart" class="h-6 cursor-pointer hover:opacity-70 transition duration-300" />
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
